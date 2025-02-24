@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "execa": "^8.0.1", 
     "@isaacs/ttlcache": "^1.4.1",
     "@nuxtjs/i18n": "^8.3.1",
     "@nuxtjs/seo": "^2.0.0-rc.10",
@@ -32,8 +33,5 @@
     "@types/wicg-file-system-access": "^2023.10.5",
     "prettier": "^3.3.2"
   },
-  "packageManager": "yarn@1.22.22",
-  "engines": {
-    "node": ">=20.5.0"
-  }
+  "packageManager": "yarn@1.22.22"
 }
